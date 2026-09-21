@@ -11,17 +11,17 @@ print("My age is" + str(age))
 s="""PALLAVI"""
 print(s,type(s))
 
-addr1 = """Chathurya Pallavi
-HNO: 5-2-119
+addr1 = """Student One
+Example Address
 Hyderabad
-Telangana 500070"""
+Telangana"""
 
 print(addr1, type(addr1))
 
-addr2 = '''Rahul Sharma
-FNO: 2-6-45
+addr2 = """Student Two
+Example Address
 Secunderabad
-Telangana 500070'''
+Telangana"""
 
 print(addr2, type(addr2))
 
