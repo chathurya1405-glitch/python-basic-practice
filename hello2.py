@@ -1,30 +1,34 @@
-s="Python"
-print(s,type(s))
+# Python Basics: Strings, Indexing and Slicing
 
-s='CHATHURYA'
-print(s,type(s))
+s = "Python"
+print(s, type(s))
 
-age=19
+s = "CHATHURYA"
+print(s, type(s))
+
+age = 19
 print(type(age))
-print("My age is" + str(age))
+print("My age is " + str(age))
 
-s="""PALLAVI"""
-print(s,type(s))
+s = """PALLAVI"""
+print(s, type(s))
 
-addr1 = """Chathurya Pallavi
-HNO: 5-2-119
+# Multi-line strings
+addr1 = """Student One
+Example Address
 Hyderabad
-Telangana 500070"""
+Telangana"""
 
 print(addr1, type(addr1))
 
-addr2 = '''Rahul Sharma
-FNO: 2-6-45
+addr2 = '''Student Two
+Example Address
 Secunderabad
-Telangana 500070'''
+Telangana'''
 
 print(addr2, type(addr2))
 
+# String indexing
 s = "CHATHURYA"
 
 print(s[3])
@@ -32,32 +36,39 @@ print(s[5])
 print(s[-2])
 print(s[1])
 
-s="SRIINDU"
+# String slicing
+s = "SRIINDU"
+
 print(s[1:6])
 print(s[2:6])
 print(s[-3:-4])
 print(s[0:6])
 
-s="MUKESH"
+s = "MUKESH"
+
 print(s[1:])
 print(s[-2:])
 print(s[0:])
 print(s[4:])
 
-s="PLAYING"
+s = "PLAYING"
 print(s[:])
 
-s="hari"
+s = "hari"
+
 print(s[:3])
 print(s[:0])
 print(s[:-2])
 
 s = "MEDISETTI"
+
 print(s[:5])
 print(s[:2])
 print(s[:-4])
 
+# Reverse slicing
 s = "INTERNSHIP"
+
 print(s[8:1:-1])
 print(s[7:2:-1])
 print(s[9:2:-2])
